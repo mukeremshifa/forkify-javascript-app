@@ -89,6 +89,7 @@ export const addBookmark = function (recipe) {
   //mark current recipe as bookamark
   if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
 
+  //save bookmarks list to local storage
   persistBookmarks();
 };
 
