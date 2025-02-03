@@ -1,7 +1,7 @@
 import View from './View.js';
-import icons from 'url:disticons.21bad73c.svg';
+import icons from 'url:../../img/icons.svg';
 
-//init fracty for fractional ingredients
+//init fracty for fractional
 const fracty = require('fracty');
 
 class RecipeView extends View {
