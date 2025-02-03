@@ -1,5 +1,5 @@
 import View from './View.js';
-import icons from 'url:../../img/icons.svg';
+import icons from 'url:disticons.21bad73c.svg';
 
 //init fracty for fractional ingredients
 const fracty = require('fracty');
